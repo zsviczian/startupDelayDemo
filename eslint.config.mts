@@ -29,4 +29,10 @@ export default defineConfig(
 		},
 	},
 	...obsidianmd.configs.recommended,
+	{
+		rules: {
+			'no-console': 'off',
+			'obsidianmd/rule-custom-message': 'off',
+		},
+	},
 );
